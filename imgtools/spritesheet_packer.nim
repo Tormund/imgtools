@@ -59,7 +59,7 @@ type
         packer: RectPacker
         size*: Size
         category*: string
-        mPath: string # Index of sprite sheet in tool.images array
+        mPath: string
         packedIndexes: seq[int] # indexes of packed images
         useWebp: bool
         webpQuality: float
